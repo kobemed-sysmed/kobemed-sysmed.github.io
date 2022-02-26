@@ -405,14 +405,6 @@ header .container h1 ,h2 {
   
 }  
 
-.hero {
-  perspective: 1000;
-}
-
-.hero .animate {
-  transition-delay: 2.0s;
-}
-
 .clubname p {
   color: black;
   font-size: 35px;
