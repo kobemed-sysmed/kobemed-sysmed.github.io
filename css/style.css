@@ -134,7 +134,7 @@ a:hover {
   height: fit-content(100);
   width: 100%;
   overflow: hidden; 
-  background-color:hsl(40, 30%, 90% );
+  background-color:hsl(30, 30%, 90% );
 }
 
 /* 桜の花びらのスタイル */
@@ -404,6 +404,7 @@ header .container h1 ,h2 {
   text-align: center;
   
 }  
+
 
 .clubname p {
   color: black;
@@ -701,6 +702,10 @@ footer p {
 
 
 @media (min-width: 500px){
+
+  .cherry-blossom-container {
+    background-color:hsl(40, 30%, 90% );
+  }
   
   .aboutUs p,
   .members p,
