@@ -3,7 +3,7 @@
 
 html {
   scroll-behavior: smooth;
-  -webkit-scroll-behavior: smooth;
+
 }
 
 body {
@@ -36,7 +36,6 @@ a {
   text-decoration: none;
   color: inherit;
   transition: opacity .3s;
-  -webkit-transition: opacity .3s;
 }
 
 a:hover {
@@ -48,13 +47,11 @@ a:hover {
   transform: translateY(40px);
   -webkit-transform: translateY(40px);
   transition: opacity 1.5s, transform 1.5s;
-  -webkit-transition: opacity 1.5s, transform 1.5s;
 }
 
 .animate.appear {
   opacity: 1;
   transform: none;
-  -webkit-transform: none;
 }
 
 /* shutter */
@@ -170,7 +167,6 @@ a:hover {
     top: 0;
     opacity: 0;
     transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
   }
   10% {
     opacity: 1;
@@ -182,7 +178,6 @@ a:hover {
     opacity: 0;
     top: 540vh;
     transform: rotate(3000deg);
-    -webkit-transform: rotate(3000deg);
   }
 }
 /* header */
@@ -293,7 +288,6 @@ header .container h1 ,h2 {
   opacity: 0;
   pointer-events: none;
   transition: opacity .6s;
-  -webkit-transition: opacity .6s;
 }
 
 .overlay.show {
@@ -315,41 +309,33 @@ header .container h1 ,h2 {
   margin-top: 24px;
   opacity: 0;
   transform: translateY(16px);
-  -webkit-transform: translateY(16px);
   transition: opacity .4s, transform .4s;
-  -webkit-transition: opacity .4s, transform .4s;
 }
 
 .overlay.show li {
   opacity: 1;
   transform: none;
-  -webkit-transform: none;
 }
 
 .overlay.show li:nth-child(1) {
   transition-delay: .1s;
-  -webkit-transition-delay: .1s;
 }
 
 .overlay.show li:nth-child(2) {
   transition-delay: .2s;
-  -webkit-transition-delay: .2s;
 }
 
 .overlay.show li:nth-child(3) {
   transition-delay: .3s;
-  -webkit-transition-delay: .3s;
 }
 .overlay.show li:nth-child(4) {
   transition-delay: .4s;
-  -webkit-transition-delay: .4s;
 }
 
 /* header-nav */
 
 #headerNav {
   transform: matrix(1, 0, 0, 1, 0, 0);
-  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
   visibility: visible;
   opacity: 1;
   position: fixed;
@@ -389,7 +375,6 @@ header .container h1 ,h2 {
   font-size: 20px;
   font-weight: normal;
   transition: letter-spacing 0.5s cubic-bezier(0, 1.36, 0.38, 1);
-  -webkit-transition: letter-spacing 0.5s cubic-bezier(0, 1.36, 0.38, 1);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   letter-spacing: 0.15em;
   line-height: 40px;  
@@ -421,13 +406,11 @@ header .container h1 ,h2 {
 }  
 
 .hero {
-  -webkit-backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  perspective: 1000;
 }
 
 .hero .animate {
   transition-delay: 2.0s;
-  -webkit-transition-delay: 2.0s;
 }
 
 .clubname p {
@@ -454,11 +437,6 @@ header .container h1 ,h2 {
   padding-top: 50px;
   text-align: center; 
   
-  -webkit-animation-name: bigger0;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-fill-mode: forwards;
-  -webkit-animation-delay: 1.7s;
-
   animation-name: bigger0;
   animation-duration: 2s;
   animation-fill-mode: forwards;
@@ -468,12 +446,10 @@ header .container h1 ,h2 {
 
 @keyframes bigger0 {
   from {
-    -webkit-transform: scale(0);
     transform: scale(0) ;
   }
 
   to {
-    -webkit-transform: scale(1.0);
     transform: scale(1.0);
   }
 } 
@@ -486,21 +462,14 @@ header .container h1 ,h2 {
   font-size: 50px;
   border: 2px solid black;
   border-radius: 50%;
+
   animation-name: bound;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
   animation-delay: 3s;
-
-  -webkit-animation-name: bound;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-delay: 3s;
   display: none;
 }
-
-
 
 
 /* aboutus */
@@ -558,28 +527,20 @@ header .container h1 ,h2 {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
-
-  -webkit-animation-name: swing;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 1.5s;
 }
 
 @keyframes swing {
   0% {
       transform: rotate(-5deg);
-      -webkit-transform: rotate(-5deg);
   }
 
   50% {
     transform: rotate(5deg);
-    -webkit-transform: rotate(5deg);
   }
 
 
   100% {
       transform: rotate(-5deg);
-      -webkit-transform: rotate(-5deg);
   }
 }
 
@@ -661,11 +622,6 @@ header .container h1 ,h2 {
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
-  
-  -webkit-animation-name: swings;
-  -webkit-animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-duration: 1.5s;
 }
 
 @keyframes swings {
@@ -675,13 +631,11 @@ header .container h1 ,h2 {
   }
 
   50% {
-    -webkit-transform: rotate(12deg);
     transform: rotate(12deg);
   }
 
 
   100% {
-    -webkit-transform: rotate(-12deg);
     transform: rotate(-12deg);
   }
 }
@@ -734,12 +688,6 @@ footer p {
     animation-iteration-count: infinite;
     animation-duration: 1.5s;
     animation-delay: 3s;
-
-    -webkit-animation-name: bound;
-    -webkit-animation-timing-function: ease-in-out;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-duration: 1.5s;
-    -webkit-animation-delay: 3s;
   }
 
 
@@ -747,16 +695,13 @@ footer p {
   @keyframes bound {
     0% {
       transform: translateY(0px);
-      -webkit-transform: translateY(0px);
     }
     50%{
       transform: translateY(25px);
-      -webkit-transform: translateY(25px);
     }
     100% {
   
       transform: translateY(0px);
-      -webkit-transform: translateY(0px);
     }
   }
  
@@ -815,19 +760,16 @@ footer p {
   }
 
   .catchcopy {
-    -webkit-animation-name: bigger1;
     animation-name: bigger1;
   }
 
   @keyframes bigger1 {
     from {
-      -webkit-transform: scale(0) ;
       transform: scale(0);
       
     }
 
     to {
-      -webkit-transform: scale(1.5);
       transform: scale(1.5);
     }
   } 
@@ -936,25 +878,21 @@ footer p {
   }
 
   .catchcopy {
-    -webkit-animation-name: bigger;
     animation-name: bigger;
 
   }
 
   @keyframes bigger {
     0% {
-      -webkit-transform:  rotate(0deg) scale(0.1);
       transform:  rotate(0deg) scale(0.1);
       opacity: 0.2;
       ;
     }
     50% {
-      -webkit-transform:  rotate(360deg);
       transform:  rotate(360deg);
     }
 
     100% {
-      -webkit-transform: scale(1.5);
       transform: scale(1.5);
       opacity: 1;
     }
