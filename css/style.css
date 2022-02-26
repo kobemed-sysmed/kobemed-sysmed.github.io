@@ -420,6 +420,10 @@ header .container h1 ,h2 {
   
 }  
 
+.hero {
+  perspective: 1000;
+}
+
 .hero .animate {
   transition-delay: 2.0s;
   -webkit-transition-delay: 2.0s;
@@ -453,24 +457,23 @@ header .container h1 ,h2 {
   -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-delay: 1.7s;
-  -webkit-backface-visibility: hidden;
 
   animation-name: bigger0;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 1.7s;
-  backface-visibility: hidden;
+
 }
 
 @keyframes bigger0 {
   from {
     -webkit-transform: scale(0);
-    transform: scale(0) rotate(0.001deg);
+    transform: scale(0) ;
   }
 
   to {
     -webkit-transform: scale(1.0);
-    transform: scale(1.0) rotate(0.001deg);
+    transform: scale(1.0);
   }
 } 
 
@@ -495,6 +498,8 @@ header .container h1 ,h2 {
   -webkit-animation-delay: 3s;
   display: none;
 }
+
+
 
 
 /* aboutus */
@@ -815,13 +820,13 @@ footer p {
 
   @keyframes bigger1 {
     from {
-      -webkit-transform: scale(0) rotate(0.001deg);
+      -webkit-transform: scale(0) ;
       transform: scale(0);
       
     }
 
     to {
-      -webkit-transform: scale(1.5) rotate(0.001deg);
+      -webkit-transform: scale(1.5);
       transform: scale(1.5);
     }
   } 
