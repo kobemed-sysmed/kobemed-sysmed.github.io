@@ -181,7 +181,7 @@ a:hover {
   }
   100% {
     opacity: 0;
-    top: 540vh;
+    top: 100%;
     transform: rotate(3000deg);
   }
 }
