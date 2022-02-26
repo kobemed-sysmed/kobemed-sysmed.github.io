@@ -481,6 +481,7 @@ header .container h1 ,h2 {
   padding-top: 50px;
   text-align: center;
   margin: 0 auto;
+  backface-visibility:hidden;
 }
 
 .aboutUs h1 {
@@ -504,6 +505,7 @@ header .container h1 ,h2 {
   padding: 40px 0;
   text-align: center;
   margin: 0 auto;
+  backface-visibility:hidden;
 }
 
 .members h1 {
@@ -545,6 +547,7 @@ header .container h1 ,h2 {
 
 .news {
   padding: 20px;
+  backface-visibility:hidden;
 }
 
 .twitter {
@@ -598,6 +601,7 @@ header .container h1 ,h2 {
   padding: 80px 0;
   margin: 0 auto;
   text-align: center;
+  backface-visibility:hidden;
 
 }
 
