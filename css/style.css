@@ -209,7 +209,6 @@ header .container h1 ,h2 {
   font-size: 18px;
   text-decoration: underline;
   text-decoration-color:cadetblue;
-  
   text-decoration-thickness: 3px;
 }
 
@@ -439,7 +438,7 @@ header .container h1 ,h2 {
   font-size: 30px;
   letter-spacing: .2rem; 
   margin: 0;
-  color: rgb(51, 119, 119);
+  color: rgb(59, 160, 161);
 }
 
 .catchcopy {
@@ -450,29 +449,25 @@ header .container h1 ,h2 {
   padding-top: 50px;
   text-align: center; 
   animation-name: bigger0;
-  animation-duration:2s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 1.7s;
 
   -webkit-animation-name: bigger0;
-  -webkit-animation-duration:2s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-delay: 1.7s;
 }
 
-
-
-
 @keyframes bigger0 {
   from {
-    transform: scale(0.1);
     -webkit-transform: scale(0.1);
-    
+    transform: scale(0.1);
   }
 
   to {
-    transform: scale(1.0);
     -webkit-transform: scale(1.0);
+    transform: scale(1.0);
   }
 } 
 
