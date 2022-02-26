@@ -421,6 +421,7 @@ header .container h1 ,h2 {
 }  
 
 .hero {
+  -webkit-backface-visibility: hidden;
   perspective: 1000;
 }
 
