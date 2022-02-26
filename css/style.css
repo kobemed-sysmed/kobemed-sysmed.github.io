@@ -453,13 +453,11 @@ header .container h1 ,h2 {
   -webkit-animation-duration: 2s;
   -webkit-animation-fill-mode: forwards;
   -webkit-animation-delay: 1.7s;
-  -webkit-backface-visibility: hidden;
 
   animation-name: bigger0;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-delay: 1.7s;
-  backface-visibility: hidden;
 }
 
 @keyframes bigger0 {
@@ -809,19 +807,17 @@ footer p {
   }
 
   .catchcopy {
+    perspective: 1000;
     -webkit-animation-name: bigger1;
     -webkit-animation-duration:2s;
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: 1.7s;
-    -webkit-backface-visibility: hidden;
-    perspective: 1000;
-
+    
     animation-name: bigger1;
     animation-duration:2s;
     animation-fill-mode: forwards;  
     animation-delay: 1.7s;
-    backface-visibility: hidden;
-
+  
   }
 
   @keyframes bigger1 {
