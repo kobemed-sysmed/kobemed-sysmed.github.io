@@ -814,6 +814,7 @@ footer p {
     -webkit-animation-fill-mode: forwards;
     -webkit-animation-delay: 1.7s;
     -webkit-backface-visibility: hidden;
+    perspective: 1000;
 
     animation-name: bigger1;
     animation-duration:2s;
