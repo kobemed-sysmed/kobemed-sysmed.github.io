@@ -14,7 +14,6 @@ h1 ,h2 {
   margin: 0;
 }
 
-
 img {
   position: relative;
   z-index: 2;
@@ -759,8 +758,8 @@ footer p {
 
   @keyframes bigger {
     0% {
-      transform: rotate(0deg) scale(0.1);
-      opacity: 0.2;
+      transform: rotate(0deg) scale(10%);
+      opacity: 20%;
       ;
     }
     50% {
@@ -768,8 +767,8 @@ footer p {
     }
 
     100% {
-      transform: scale(1.5);
-      opacity: 1;
+      transform: scale(150%);
+      opacity: 100%;
     }
   } 
  
@@ -865,6 +864,8 @@ footer p {
   .members img {
     width: 40%;
   }
+
+  
 
   .hero .scroll {
     color: white;
