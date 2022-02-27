@@ -430,7 +430,6 @@ header .container h1 ,h2 {
   left: calc(50% - 160px);
   padding-top: 50px;
   text-align: center; 
-  perspective: 500px;
   animation-name: bigger0;
   animation-duration: 2s;
   animation-fill-mode: forwards;
