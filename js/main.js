@@ -92,20 +92,4 @@
       });
       });
   
-      $(document).ready(function() {
-        $('a').click(function(){ 
-            var target= $(this).attr("href");
-            var webkit = !document.uniqueID && !window.opera && !window.globalStorage && window.localStorage;
-            var ua = navigator.userAgent;
-            var scrollTag;
-            if( ua.indexOf('OPR') !== -1 || ua.indexOf('Edge') !== -1 ) {
-              scrollTag = 'body';
-            } else {
-              scrollTag = ( !window.chrome && 'WebkitAppearance' in document.documentElement.style )? 'body' : 'html';
-            }
-            $(scrollTag).animate({scrollTop: $(target).offset().top},400);
-            return false;
-        });
-    });
-  
 }
