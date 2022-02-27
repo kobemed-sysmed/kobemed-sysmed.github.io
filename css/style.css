@@ -441,7 +441,7 @@ header .container h1 ,h2 {
 
 @keyframes bigger0 {
   from {
-    transform: scale(0) ;
+    transform: scale(0);
   }
   to {
     transform: scale(1.0);
@@ -752,6 +752,9 @@ footer p {
 
   .catchcopy {
     animation-name: bigger;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.7s;
   }
 
   @keyframes bigger {
@@ -862,7 +865,6 @@ footer p {
   .members img {
     width: 40%;
   }
-
 
   .hero .scroll {
     color: white;
