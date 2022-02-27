@@ -373,7 +373,6 @@ header .container h1 ,h2 {
 
 #headerNav > li {
   position: relative;
-  
 }
 
 #header-nav-inner > ul > li > a {
@@ -408,9 +407,7 @@ header .container h1 ,h2 {
   left: calc(50% - 150px);
   padding-top: 20px;
   text-align: center;
-  
 }  
-
 
 .clubname p {
   color: black;
@@ -419,7 +416,6 @@ header .container h1 ,h2 {
   text-decoration-color:cadetblue;
   text-decoration-thickness: 5px;
 }
-
 
 .catchcopy p {
   font-size: 30px;
@@ -447,7 +443,6 @@ header .container h1 ,h2 {
   from {
     transform: scale(0) ;
   }
-
   to {
     transform: scale(1.0);
   }
@@ -515,9 +510,6 @@ header .container h1 ,h2 {
   font-size:2.5rem;
 }
 
-
-
-
 .members img {
   border-radius: 50px;
   width: 80%;
@@ -532,12 +524,9 @@ header .container h1 ,h2 {
   0% {
       transform: rotate(-5deg);
   }
-
   50% {
     transform: rotate(5deg);
   }
-
-
   100% {
       transform: rotate(-5deg);
   }
@@ -669,8 +658,6 @@ footer p {
   text-align: center;
 }
 
-
-
 @media (min-width: 400px) {
   .aboutUs h1 {
     font-size:2.5rem;
@@ -690,8 +677,6 @@ footer p {
     animation-delay: 3s;
   }
 
-
-  
   @keyframes bound {
     0% {
       transform: translateY(0px);
@@ -700,11 +685,9 @@ footer p {
       transform: translateY(25px);
     }
     100% {
-  
       transform: translateY(0px);
     }
   }
- 
 }
 
 
@@ -768,17 +751,22 @@ footer p {
   }
 
   .catchcopy {
-    animation-name: bigger1;
+    animation-name: bigger;
   }
 
-  @keyframes bigger1 {
-    from {
-      transform: scale(0);
-      
+  @keyframes bigger {
+    0% {
+      transform:  rotate(0deg) scale(0.1);
+      opacity: 0.2;
+      ;
+    }
+    50% {
+      transform:  rotate(360deg);
     }
 
-    to {
+    100% {
       transform: scale(1.5);
+      opacity: 1;
     }
   } 
  
@@ -792,8 +780,6 @@ footer p {
   .pic {
     margin: 0 auto;
   }
-
-
 }
 
 
@@ -831,8 +817,6 @@ footer p {
   .blog .pic {
     width: 60%;
   }
-
-
 }
 
 @media (min-width:1000px) {
@@ -885,29 +869,7 @@ footer p {
     border: 4px solid white;
   }
 
-  .catchcopy {
-    animation-name: bigger;
-
-  }
-
-  @keyframes bigger {
-    0% {
-      transform:  rotate(0deg) scale(0.1);
-      opacity: 0.2;
-      ;
-    }
-    50% {
-      transform:  rotate(360deg);
-    }
-
-    100% {
-      transform: scale(1.5);
-      opacity: 1;
-    }
-  } 
-
   .blog .pic {
     width: 40%;
   }
-
 }
