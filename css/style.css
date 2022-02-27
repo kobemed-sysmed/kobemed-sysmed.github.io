@@ -423,6 +423,11 @@ header .container h1 ,h2 {
   color: rgb(59, 160, 161);
 }
 
+.hero {
+  perspective: 100;
+}
+
+
 .catchcopy {
   margin-top: 30px;
   position: absolute;
