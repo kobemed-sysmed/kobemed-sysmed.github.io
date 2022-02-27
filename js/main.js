@@ -21,6 +21,9 @@
   document.querySelectorAll('.animate').forEach(el => {
     observer.observe(el);
   });
+  document.querySelectorAll('.impact').forEach(el => {
+    observer.observe(el);
+  });
 
   const open = document.getElementById('open');
   const overlay = document.querySelector('.overlay');
@@ -80,16 +83,5 @@
       // 花びらを生成する間隔をミリ秒で指定
       setInterval(createPetal, 400);
     });
-  
-    $(function(){
-      $('a[href^=#]').click(function() {
-      var speed = 1000; // スクロール速度(ミリ秒)
-      var href = $(this).attr("href");
-      var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top;
-      $('html').animate({scrollTop:position}, speed, 'swing');
-      return false;
-      });
-      });
-  
+    
 }
