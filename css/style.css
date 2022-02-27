@@ -760,7 +760,6 @@ footer p {
     0% {
       transform: rotate(0deg) scale(10%);
       opacity: 20%;
-      ;
     }
     50% {
       transform: rotate(360deg);
