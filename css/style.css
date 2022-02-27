@@ -443,13 +443,12 @@ header .container h1 ,h2 {
     transform: rotate(0deg) scale(0);
   }
   50% {
-    transform: rotate(360deg) scale(0.7);
+    transform: rotate(360deg) scale(0.6);
   }
   100% {
     transform: scale(1.0);
   }
 } 
-
 
 .hero .scroll {
   display: inline-block;
@@ -752,6 +751,29 @@ footer p {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     grid-template-rows: repeat(3, minmax(150px, 1fr));
   }
+
+  .catchcopy {
+    animation-name: bigger;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.7s;
+  }
+
+  @keyframes bigger {
+    0% {
+      transform: rotate(0deg) scale(0);
+      opacity: 0.2;
+      ;
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+
+    100% {
+      transform: scale(1.5);
+      opacity: 1;
+    }
+  } 
  
 
   .blog1 ,.blog2 {
@@ -846,25 +868,7 @@ footer p {
     width: 40%;
   }
 
-  .catchcopy {
-    animation-name: bigger2;
-  }
 
-  @keyframes bigger2 {
-    0% {
-      transform: rotate(0deg) scale(0);
-      opacity: 0.2;
-      ;
-    }
-    50% {
-      transform: rotate(360deg);
-    }
-
-    100% {
-      transform: scale(1.5);
-      opacity: 1;
-    }
-  } 
   .hero .scroll {
     color: white;
     border: 4px solid white;
