@@ -617,38 +617,61 @@ header .container h1 ,h2 {
   font-size:2.5rem;
 }
 
-.message p{
-  margin-bottom: 30px;
-}
+
 
 .twitter-icon {
   display: inline-block;
   animation-name: swings;
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
 }
 
 @keyframes swings {
   0% {
-    -webkit-transform: rotate(-12deg);
     transform: rotate(-12deg);
   }
-
-  50% {
+  30% {
     transform: rotate(12deg);
   }
-
-
+  60% {
+    transform: rotate(-12deg);
+  }
   100% {
     transform: rotate(-12deg);
   }
 }
 
+.email {
+  font-size: 50px;
+  margin-left: 30px;
+  animation-name: swings2;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+}
+
+@keyframes swings2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  30% {
+    transform: rotate(5deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+
 .top1 {
   display: inline-block;
   position: absolute;
-  bottom: 2%;
+  bottom: 1.2%;
   right: 10%;
   font-size: 50px;
  }
@@ -656,7 +679,7 @@ header .container h1 ,h2 {
  .topback {
    display: inline-block;
    position: absolute;
-   bottom: 0.8%;
+   bottom: 0.3%;
    right: 6%;
  }
 
@@ -672,6 +695,10 @@ footer {
 footer p {
   font-size: 14px; 
   text-align: center;
+}
+
+footer a p{
+  font-size: 12px;
 }
 
 @media (min-width: 400px) {
