@@ -271,7 +271,10 @@ header .container h1 ,h2 {
   background-image: url(../image/bg6.jpg);
   background-size: var(--my-size);
 }
-
+.imclass1 {
+  margin-left: auto;
+  margin-right: auto; 
+}
 
 /* sp-menu */
 
