@@ -1,3 +1,5 @@
 theme: jekyll-theme-slate
 plugins:
  - jekyll-sitemap
+baseurl: "/kobemed-sysmed.github.io"
+url: "https://kobemed-sysmed.github.io"
