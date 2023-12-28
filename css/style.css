@@ -70,6 +70,8 @@ a:hover {
 .aboutUs,
 .members,
 .news,
+.links,
+.articles,
 .message {
   background-color:hsl(40, 30%, 95%);
 }
@@ -271,13 +273,38 @@ header .container h1 ,h2 {
   background-image: url(../image/bg6.jpg);
   background-size: var(--my-size);
 }
-.imclass1 {
+/*.imclass1 {
   position: absolute;
   top: 100px;
   left: 100px;
    width: 250px;
   height: 100px;
+}*/
+
+/* new background */
+.newbg {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-image: url(../image/night_kobe2.png);
 }
+.newbg:before{
+  content: '';
+  background: inherit;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  z-index: -1;
+}
+
 
 /* sp-menu */
 
@@ -422,11 +449,19 @@ header .container h1 ,h2 {
 
 /* clubname */
 
+.newclubname {
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  text-align: center;
+}
+
 .clubname {
   position: absolute;
   top: 100px;
   /*left: calc(50% - 150px);*/
-  left: calc(50% - 500px)
+  /*left: calc(50% - 150px)*/
+  left: calc(50% - 160px);
   padding-top: 20px;
   text-align: center;
 }  
@@ -443,15 +478,15 @@ header .container h1 ,h2 {
   font-size: 30px;
   letter-spacing: .2rem; 
   margin: 0;
-  color: rgb(59, 160, 161);
+  color: rgb(50, 100, 180);
 }
 
 
 .catchcopy {
-  font-family: serif;
+  font-family: 'Noto Sans JP', sans-serif;
   margin-top: 30px;
   position: absolute;
-  top: 440px;
+  top: 360px;
   left: calc(50% - 160px);
   padding-top: 50px;
   text-align: center; 
@@ -518,6 +553,33 @@ header .container h1 ,h2 {
   margin: 100px 0;
 }
 
+.aboutUs ul {
+  font-size: 20px;
+  list-style: square;
+  text-align: left;
+  list-style-position: inside;
+  padding-left: 100px;
+}
+
+
+.box30 {
+  margin: 2em 0;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+}
+.box30 .box-title {
+  font-size: 1.2em;
+  background: #5fc2f5;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box30 p {
+  padding: 15px 20px;
+  margin: 0;
+}
 
 /* members */
 
@@ -562,12 +624,15 @@ header .container h1 ,h2 {
 .news {
   padding: 20px;
   backface-visibility:hidden;
+  font-size: 25px;
 }
 
-.twitter {
+.twitter-timeline {
   position: relative;
-  z-index: 3;
-  margin-bottom: 20px;
+  /*position:absolute;*/
+  text-align: center;
+  /*z-index: 3;*/
+  margin-left: 25px;
 }
 
 
@@ -608,6 +673,126 @@ header .container h1 ,h2 {
   width: 80%;
 }
 
+
+/* links */
+
+.links {
+  padding: 20px;
+  backface-visibility:hidden;
+  margin-top: 100px;
+}
+
+
+.links h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size:2.5rem;
+  text-align: center;
+}
+
+
+
+.links h2 {
+  padding: 20px;
+  text-align: center;
+}
+
+.links ul {
+  padding: 0;
+  position: relative;
+}
+.links ul li{
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd;/*左側の線*/
+  background: #f1f8ff;/*背景色*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+   line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+}
+
+/* articles */
+
+.articles {
+  padding: 20px;
+  backface-visibility:hidden;
+  font-size: 25px;
+}
+
+
+/*リセット*/
+.articles h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+/*デザイン*/
+.articles h1 {
+  margin-top: 60px;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 30px 40px;
+  margin-bottom: 1em;
+  color: #ffffff;
+  border-radius: 3px;
+  border: 5px dotted #ffffff;
+  background: #CF872A;
+  box-shadow: 0 0 0 10px rgba(207, 135, 42, 1);
+}
+.articles h2 {
+  margin-top: 30px;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 20px 30px;
+  margin-bottom: 1em;
+  color: #ffffff;
+  border-radius: 5px;
+  background: #CF872A;
+}
+.articles h3 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  background: #ffbd2e;
+}
+.articles h4 {
+  font-size: 25px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  border-top: 3px dashed #ffbd2e;
+  border-bottom: 3px dashed #ffbd2e;
+}
+.articles h5 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  border-bottom: 3px solid #ffbd2e;
+}
+.articles h6 {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  border-bottom: 3px dotted #ffbd2e;
+}
+
+.articles ul {
+  padding: 0;
+  position: relative;
+}
+.articles ul li{
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd;/*左側の線*/
+  background: #f1f8ff;/*背景色*/
+  margin-bottom: 3px;/*下のバーとの余白*/
+   line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+}
 
 /* message */
 
