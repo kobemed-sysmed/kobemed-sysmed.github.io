@@ -983,12 +983,12 @@ footer a p{
     grid-template-rows: repeat(3, minmax(150px, 1fr));
   }
 
-  .catchcopy {
+  /*.catchcopy {
     animation-name: bigger;
     animation-duration: 2s;
     animation-fill-mode: forwards;
     animation-delay: 1.7s;
-  }
+  }*/
 
   @keyframes bigger {
     0% {
