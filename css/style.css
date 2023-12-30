@@ -452,7 +452,7 @@ header .container h1 ,h2 {
 .newclubname {
   position: absolute;
   top: 100px;
-  left: 250px;
+  left: 20%;
   text-align: center;
 }
 
@@ -490,10 +490,10 @@ header .container h1 ,h2 {
   left: calc(50% - 160px);
   padding-top: 50px;
   text-align: center; 
-  animation-name: bigger0;
+  /*animation-name: bigger0;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-delay: 1.7s;
+  animation-delay: 1.7s;*/
 
 }
 
@@ -558,7 +558,7 @@ header .container h1 ,h2 {
   list-style: square;
   text-align: left;
   list-style-position: inside;
-  padding-left: 100px;
+  padding-left: 30px;
 }
 
 
@@ -622,9 +622,9 @@ header .container h1 ,h2 {
 /* news */
 
 .news {
-  padding: 20px;
+  margin: 20px;
   backface-visibility:hidden;
-  font-size: 25px;
+  font-size: 15px;
 }
 
 .twitter-timeline {
@@ -632,7 +632,8 @@ header .container h1 ,h2 {
   /*position:absolute;*/
   text-align: center;
   /*z-index: 3;*/
-  margin-left: 25px;
+  margin-top: 20px;
+  margin-left: 2px;
 }
 
 
