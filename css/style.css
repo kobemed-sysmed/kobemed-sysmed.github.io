@@ -1144,7 +1144,7 @@ footer a p{
 }
 
 .image3 {
-  width: 50%;
+  width: 180px;
   margin: 15px;
   object-fit: cover;
   border-top-left-radius: 60% 40%;
@@ -1157,7 +1157,7 @@ footer a p{
     display: flex;
   }
   .image3{
-    width: 30%;
+    width: 180px;
   }
 }
 .title3 {
