@@ -1142,17 +1142,23 @@ footer a p{
   background-color: #fff;
   box-shadow: 0 3px 6px #ccc;
 }
-.box3 {
-  display: flex;
-}
+
 .image3 {
-  width: 30%;
+  width: 50%;
   margin: 15px;
   object-fit: cover;
   border-top-left-radius: 60% 40%;
   border-top-right-radius: 51% 60%;
   border-bottom-right-radius: 91% 80%;
   border-bottom-left-radius: 9% 24%;
+}
+@media(min-width:800px) {
+  .box3 {
+    display: flex;
+  }
+  .image3{
+    width: 30%;
+  }
 }
 .title3 {
   font-size: 120%;
