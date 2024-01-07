@@ -1112,8 +1112,11 @@ footer a p{
   .newclubname,
   .catchcopy {
     left: 20%;
-    width: 60%;
+    width: min(60%, 1000px);
     font-size: 40px;
+  }
+  .catchcopy {
+    margin-top: 200px;
   }
 
   .bg {
