@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="2OrxBHUVKydSIO6ui2iMK5-o01ze4bPuykd3aoSM9MY" />
+  <meta name="description" content="システム医学研究会はパソコンやプログラミングについて勉強する部活です。">
+  <title>神戸大学医学部システム医学研究会</title>
+  <link rel="icon" href="image/FQos2wa1_400x400.jpg">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap" rel="stylesheet">
+</head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Z8SDSDTZ6W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Z8SDSDTZ6W');
+</script>
+
+
+<body>
+ 
+  <section class="containers">
+  <header>
+    <div class="container">
+      <a href="../index.html">
+        <img src="../image/logo_all.png"
+          alt="logo_all"
+          width="30%"
+          >
+      </a>
+    </div>  
+  </header>  
+  </section>
+  <section class="articles">
+    <div class="container">
+    <h1>部員紹介</h1>
+    ここでは一部の部員の自己紹介をしています。
+    <h3>部長</h3>
+    <h4>現在の部長</h4>
+    <div class="card3">
+      <div class="box3">
+          <img src="../image/hagio_icon.jpg" class="image3">
+          <div>
+              <p class="title3">萩尾元</p>
+              <p class="content3">
+              現在の部長です。Kaggleをきっかけに機械学習に興味を持ち、「いつか医療に活かしたい」と思いながら勉強を続けています。
+              システム医学研究会は、ITやプログラミングに興味のある医学生がゆるくつながる場所です。プログラミングが得意な人も、なんとなく興味があるだけの人も大歓迎です！
+              </p>
+          </div>
+      </div>
+  </div>
+  <h4>これまでの部長</h4>
+    <div class="card3">
+      <div class="box3">
+          <img src="../image/9648e2f8-6028-4f33-8587-424331164e04.png" class="image3">
+          <div>
+              <p class="title3">柴田哲希</p>
+              <p class="content3">
+              2025年4月まで部長をしていました。私は学士編入で入学し、入学前はエンジニアとして勤務していました。医学部ではタンパク質構造解析や機械学習を利用した臨床研究に参加しています。システム医学研究会を通じて医学部内でIT技術に興味がある人のコミュニティを形成し、この部に所属していた人が医療の発展に貢献できることを願っています。
+              </p>
+          </div>
+      </div>
+  </div>
+    <div class="card3">
+      <div class="box3">
+          <img src="../image/fukuse.jpg" class="image3">
+          <div>
+              <p class="title3">福瀬弘朗</p>
+              <p class="content3">
+             2024年卒です。医学も非常に面白い分野ですが、少し離れた分野に手を伸ばしてみるのも非常に有意義だと思います。自分もバイオインフォマティクスの勉強が研究に活かせました。医学にとどまらない分野への自分の興味や得意不得意を知ることは色々な発見や学びのきっかけとなり、充実した学生生活になると思います。 
+              </p>
+          </div>
+      </div>
+  </div>
+  <div class="card3">
+    <div class="box3">
+        <img src="../image/649-1.png" class="image3">
+        <div>
+            <p class="title3">味岡雄大</p>
+            <p class="content3">
+              2023年卒のOBです。ITを活用した基礎医学研究を目指しています。
+              昔存在していたシステム医学研究会を2021年に復活させました。
+              この部活が皆さんの有意義な学生生活に役立てば幸いです。
+            </p>
+        </div>
+    </div>
+</div>
+<!--
+  <h3>部員</h3>
+    <h4>現役部員</h4>
+    <div class="card3">
+      <div class="box3">
+          <img src="../image/bg1.png" class="image3">
+          <div>
+              <p class="title3">神戸太郎</p>
+              <p class="content3">ここに100文字程度で自己紹介を書きます。</p>
+          </div>
+      </div>
+  </div>
+  -->
+</div>
+  <center><a href="../index.html" class="btn btn-flat"><span>戻る</span></a></center>
+  </section>
+  <footer>
+    <div class="container">
+      <p>&copy;神戸大学医学部システム医学研究会</p> 
+      <a href="mailto:systmgk@gmail.com"><p>Mail: systmgk@gmail.com</p></a>
+      <a href="https://twitter.com/kobe_med_system"><p>X: @kobe_med_system</p></a>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</section>
+
+</body>
+</div>
+</html>
